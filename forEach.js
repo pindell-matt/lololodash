@@ -9,8 +9,7 @@ var worker = function(cities) {
     } else {
       city.size = 'small';
     }
-  }
-  );
+  });
 };
 
 module.exports = worker;
